@@ -1,3 +1,9 @@
+# Fichiers et dossiers de compilation
 x64/
 compagnon.exe
 compagnon.obj
+
+# Fichiers de métadonnées macOS
+# Ignorer les fichiers .DS_Store dans tous les répertoires
+**/.DS_Store
+**/.vs

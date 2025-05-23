@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\filter_win64]
+"Type"=dword:00000001
+"Start"=dword:00000003
+"ErrorControl"=dword:00000001
+"ImagePath"="\\SystemRoot\\System32\\drivers\\filter_win64.sys"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\filter_win64\Instances]
+"DefaultInstance"="filter_win64Instance"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\filter_win64\Instances\filter_win64Instance]
+"Altitude"="370000"
+"Flags"=dword:00000000
+
